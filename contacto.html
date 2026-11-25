@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Pearto Pins</title>
+    <link rel="stylesheet" href="contacto.css">
+</head>
+<body>
+
+    <header class="encabezado">
+        <div class="logo-imagen">
+        </div>
+
+        <h1 class="titulo-marca">Pearto Pins</h1>
+
+        <nav class="menu-navegacion">
+            <ul>
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="materiales.html">Materiales</a></li>
+                <li><a href="proceso.html">Proceso</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contenido-contacto">
+
+        <!-- Sección Información de Contacto (Centrada) -->
+        <section class="seccion-bloque">
+            <h2 class="titulo-seccion">Información de Contacto</h2>
+
+            <div class="contenedor-info-centrado">
+                <div class="encabezado-tarjeta-contacto">
+                    <!-- Espacio para ícono/logo pequeño de ubicación o marca -->
+                    <img src="logo.jpeg" alt="Pearto" class="icono-mini">
+                    <span>Pearto</span>
+                </div>
+
+                <div class="tarjeta-contacto">
+                    <p class="ubicacion">algun lugar</p>
+
+                    <div class="item-red">
+                        <div class="titulo-red">
+                            <img src="instagram.jpg" alt="Instagram" class="icono-red">
+                            <span>Instagram</span>
+                        </div>
+                        <a href="https://www.instagram.com/pearto_pins?avpt=Nm9wNmxtODJyZmRu" target="_blank" class="enlace-red">Pearto Pins</a>
+                    </div>
+
+                    <div class="item-red">
+                        <div class="titulo-red">
+                            <img src="facebook.jpg" alt="Instagram" class="icono-red">
+                            <span>Facebook</span>
+                        </div>
+                        <a href="https://www.facebook.com/share/1CdaS6kRTS/" target="_blank" class="enlace-red">Pearto pins</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Solicita Información -->
+        <section class="seccion-bloque">
+            <h2 class="titulo-seccion titulo-subrayado">Solicita Información</h2>
+
+            <form id="form-solicitud" class="formulario-solicitud">
+                
+                <!-- Columna Izquierda -->
+                <div class="columna-form">
+                    <input type="text" id="nombre" class="campo-input" placeholder="Nombre completo" required>
+                    <input type="tel" id="telefono" class="campo-input" placeholder="Número telefónico" required>
+                    <button type="submit" class="boton-enviar">Enviar Solicitud</button>
+                </div>
+
+                <!-- Columna Derecha -->
+                <div class="columna-form">
+                    <input type="email" id="correo" class="campo-input" placeholder="Correo electrónico" required>
+                    <textarea id="proyecto" class="campo-input area-proyecto" placeholder="Describe tu proyecto" rows="4" required></textarea>
+                </div>
+
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Botón flotante esquina inferior derecha -->
+    <a href="inicio.html" id="btn-volver" class="boton-volver-flotante">← Volver al Inicio</a>
+
+    <script src="contacto.js"></script>
+</body>
+</html>
